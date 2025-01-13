@@ -1,0 +1,119 @@
+1                   J E S 2  J O B  L O G  --  S Y S T E M  2 9 6 4  --  N O D E  S V S C J E S 2        
+0 
+ 16.46.09 JOB09756 ---- MONDAY,    10 FEB 2020 ----
+ 16.46.09 JOB09756  IRR010I  USERID KC03E66  IS ASSIGNED TO THIS JOB.
+ 16.46.09 JOB09756  ICH70001I KC03E66  LAST ACCESS AT 16:33:31 ON MONDAY, FEBRUARY 10, 2020
+ 16.46.09 JOB09756  $HASP373 KC03E66A STARTED - INIT 2    - CLASS A        - SYS 2964
+ 16.46.09 JOB09756  -                                      -----TIMINGS (MINS.)------                          -----PAGING COUNTS----
+ 16.46.09 JOB09756  -STEPNAME PROCSTEP    RC   EXCP   CONN       TCB       SRB  CLOCK          SERV  WORKLOAD  PAGE  SWAP   VIO SWAPS
+ 16.46.09 JOB09756  -JSTEP01              00     26      3       .00       .00     .0             5  BATCH        0     0     0     0
+ 16.46.09 JOB09756  -KC03E66A ENDED.  NAME-MUPPALANENI          TOTAL TCB CPU TIME=      .00 TOTAL ELAPSED TIME=    .0
+ 16.46.09 JOB09756  $HASP395 KC03E66A ENDED - RC=0000
+0------ JES2 JOB STATISTICS ------
+-  10 FEB 2020 JOB EXECUTION DATE
+-           65 CARDS READ
+-          123 SYSOUT PRINT RECORDS
+-            0 SYSOUT PUNCH RECORDS
+-           15 SYSOUT SPOOL KBYTES
+-         0.00 MINUTES EXECUTION TIME
+         1 //KC03E66A JOB ,'MUPPALANENI',MSGCLASS=H                                JOB09756
+         2 //JSTEP01  EXEC PGM=ASSIST                                              00020001
+         3 //STEPLIB  DD DSN=KC00NIU.ASSIST.LOADLIB,DISP=SHR                       00030001
+         4 //SYSPRINT DD SYSOUT=*                                                  00040001
+         5 //SYSIN    DD *                                                         00050001
+ ICH70001I KC03E66  LAST ACCESS AT 16:33:31 ON MONDAY, FEBRUARY 10, 2020
+ IEFA111I KC03E66A IS USING THE FOLLOWING JOB RELATED SETTINGS:
+          SWA=ABOVE,TIOT SIZE=32K,DSENQSHR=DISALLOW,GDGBIAS=JOB
+ IEF236I ALLOC. FOR KC03E66A JSTEP01
+ IGD103I SMS ALLOCATED TO DDNAME STEPLIB
+ IEF237I JES2 ALLOCATED TO SYSPRINT
+ IEF237I JES2 ALLOCATED TO SYSIN
+ IEF142I KC03E66A JSTEP01 - STEP WAS EXECUTED - COND CODE 0000
+ IGD104I KC00NIU.ASSIST.LOADLIB                       RETAINED,  DDNAME=STEPLIB 
+ IEF285I   KC03E66.KC03E66A.JOB09756.D0000102.?         SYSOUT        
+ IEF285I   KC03E66.KC03E66A.JOB09756.D0000101.?         SYSIN         
+ IEF373I STEP/JSTEP01 /START 2020041.1646
+ IEF032I STEP/JSTEP01 /STOP  2020041.1646 
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC    
+         VIRT:   584K  SYS:   244K  EXT:        0K  SYS:    12292K
+         ATB- REAL:                  4128K  SLOTS:                     0K
+              VIRT- ALLOC:      13M SHRD:       0M
+ IEF375I  JOB/KC03E66A/START 2020041.1646
+ IEF033I  JOB/KC03E66A/STOP  2020041.1646 
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC    
+1*** ASSIST 4.0/A2-05/15/82  470/V7A/0:OS/VS2  INS=SDFP7/X=BGHO, CHECK/TRC/=1180, OPTS=CDKMPR FROM PENN ST*NIU COMPSCI*LT            
+0                                                                                                                                    
+0                                                                                                               PAGE    1            
+0  LOC  OBJECT CODE    ADDR1 ADDR2  STMT   SOURCE STATEMENT                                                                          
+                                       1 ******************************************************************      00060001            
+                                       2 *                                                                *      00060108            
+                                       3 *  CSCI 360-2                                       SPRING 2020  *      00060208            
+                                       4 *                                                                *      00061008            
+                                       5 *  PROGRAMMER NAME: SAIRAMASUBASH MUPPALANENI                    *      00070008            
+                                       6 *                                                                *      00071008            
+                                       7 *  ZID: Z1844762                                                 *      00072008            
+                                       8 *                                                                *      00073008            
+                                       9 *  DUE DATE: 2/10/2020 - 11:59 PM                                *      00074008            
+                                      10 *                                                                *      00075008            
+                                      11 *  PROGRAM NAME: ASSIGNMENT 3 - PART A                           *      00076008            
+                                      12 *                                                                *      00077008            
+                                      13 *  FUNCTION: THE FUNCTION OF THE PROGRAM IS TO DECLARE DC, AND   *      00080009            
+                                      14 *            DS FULLWORD VARIABLES AND STORE VALUES IN THEM. WE  *      00090009            
+                                      15 *            ARE ALSO ADDING, AND SUBTRACTING THESE VARIABLES    *      00090109            
+                                      16 *            USING DIFFERENT REGISTERS. FINALLY, WE ARE CHANGING *      00090209            
+                                      17 *            THESE VARIABLE NAMES INTO D(X,B) ADDRESSING.        *      00090310            
+                                      18 *                                                                *      00090409            
+                                      19 *  INPUT: NONE                                                   *      00091008            
+                                      20 *                                                                *      00092008            
+                                      21 *  OUTPUT: NONE                                                  *      00093008            
+                                      22 *                                                                *      00100008            
+                                      23 *  ENTRY CONDS: NONE                                             *      00110008            
+                                      24 *                                                                *      00120001            
+                                      25 *  REGISTER USAGE: USING REGISTERS 2, 3, 4, AND 5 TO STORE       *      00130008            
+                                      26 *                  VALUES.                                       *      00131008            
+                                      27 *                                                                *      00140008            
+                                      28 *  EXIT CONDS: NONE                                              *      00150008            
+                                      29 *                                                                *      00160008            
+                                      30 *  NOTES: THIS IS JUST THE FIRST PART OF ASSIGNMENT 3 (PART A),  *      00170008            
+                                      31 *         THERE ARE STILL TWO MORE PARTS TO GO (PART B, AND      *      00180008            
+                                      32 *         PART C).                                               *      00190008            
+                                      33 *                                                                *      00191008            
+                                      34 ******************************************************************      00200001            
+                                      35 *        COL. 10                                                        00210001            
+                                      36 *        |     COL. 16                                                  00220001            
+                                      37 *        |     |                                                        00230001            
+                                      38 *        v     v                                                        00240001            
+ 000000                               39 ASSIGN3A CSECT                                                          00250004            
+ 000000                               40          USING ASSIGN3A,15 ESTABLISH ADDRESSABILITY ON REG 15           00260004            
+                                      41 *                                                                       00261007            
+ 000000 5820 F020            00020    42          L     2,FIRST     GET THE NUMBER STORED AT FIRST INTO REG 2    00270006            
+ 000004 5830 F024            00024    43          L     3,SECOND    GET THE NUMBER STORED AT SECOND INTO REG 3   00280006            
+ 000008 1B23                          44          SR    2,3     SUBTRACT REG 3'S CONTENTS FROM REG 2'S CONTENTS  00290005            
+                                      45 *                                                                       00290108            
+ 00000A 5840 F020            00020    46          L     4,FIRST     GET THE NUMBER STORED AT FIRST INTO REG 4    00291007            
+ 00000E 5850 F024            00024    47          L     5,SECOND    GET THE NUMBER STORED AT SECOND INTO REG 5   00292007            
+ 000012 1A54                          48          AR    5,4     ADD REG 4'S CONTENTS TO REG 5'S CONTENTS         00293007            
+                                      49 *                                                                       00294008            
+ 000014 E160 0000 0000 00000          50          XDUMP ,           DUMP CONTENTS OF ALL 16 REGS                 00300001            
+                                      51 *                                                                       00301007            
+ 00001A 07FE                          52          BCR   B'1111',14  UNCONDITIONAL RETURN TO CALLER (OS)          00310001            
+1                                                                                                               PAGE    2            
+0  LOC  OBJECT CODE    ADDR1 ADDR2  STMT   SOURCE STATEMENT                                                                          
+                                      53 *                                                                       00320001            
+                                      54          LTORG             LITERAL ORGANIZATION                         00330001            
+                                      55 *                                                                       00330104            
+ 000020 00000087                      56 FIRST    DC    F'135'      LABEL WHICH IS A FULLWORD HOLDING VALUE 135  00331007            
+ 000024 00000053                      57 SECOND   DC    F'83'       LABEL WHICH IS A FULLWORD HOLDING VALUE 83   00332007            
+                                      58 *                                                                       00340001            
+                                      59          END   ASSIGN3A                                                 00350004            
+0***  NO   STATEMENTS FLAGGED -  NO   WARNINGS,  NO   ERRORS                                                                         
+0*** DYNAMIC CORE AREA USED:  LOW:    1432 HIGH:     388 LEAVING:  491748 FREE BYTES. AVERAGE:       30 BYTES/STMT ***               
+0*** ASSEMBLY TIME =    0.000 SECS,    60000 STATEMENTS/SEC ***                                                                      
+0*** PROGRAM EXECUTION BEGINNING - ANY OUTPUT BEFORE EXECUTION TIME MESSAGE IS PRODUCED BY USER PROGRAM ***                          
+0BEGIN XSNAP - CALL     1 AT E000001A USER REGISTERS                                                                                 
+0 REGS 0-7      F4F4F4F4    F4F4F4F4    00000034    00000053    00000087    000000DA    F4F4F4F4    F4F4F4F4                         
+  REGS 8-15     F4F4F4F4    F4F4F4F4    F4F4F4F4    F4F4F4F4    F4F4F4F4    00000028    FFFE7960    00000000                         
+0                                                                                                                                    
+0*** EXECUTION TIME =    0.000 SECS.         8 INSTRUCTIONS EXECUTED -     8000 INSTRUCTIONS/SEC ***                                 
+0*** FIRST CARD NOT READ: NO CARDS READ:FILE UNOPENED                                                                                
+0*** AM004 - NORMAL USER TERMINATION BY RETURN ***                                                                                   
