@@ -17,3 +17,21 @@ CSCI 340 Assignment 7: The purpose of this computer assignment is to write a C++
 CSCI 340 Assignment 8: The purpose of this computer assignment is to write a C++ program that sorts items in several input files, using the heapsort technique. This program first reads some items from the input files and builds a heap structure for those items. Then, it retrieves those items from the heap structure in a certain order and prints them out on the standard output. Also, the full path names of the input files, certain constant definitions, and the prototypes of the template functions are included in the header file prog8.h (which is provided to us by the instructor).
 
 CSCI 340 Assignment 9: The purpose of this computer assignment is to write a C++ program that creates, searchs, prints, and sorts an inventory of items. The information about the inventory of items will be stored in a sequentially allocated table, with the given size of the table being equal to 31 (TBL_SZ = 31). The table has three important features: Key (item identifier), desc (item description), and num (number of copies of an item in the inventory). Finally, The item table will be accessed directly, using the separate chaining technique (to fix/solve all the collisions).
+
+Assignment 1 CSCI 241: The purpose of this program is to get some practice with the manipulation of C strings; and to get some exercise on writing, compiling, and executing a C++ program on our schools departmental UNIX servers.
+
+Assignment 2 CSCI 241:
+
+Assignment 3 CSCI 241:
+
+Assignment 4 CSCI 241: The purpose of this program is to introduce operator overloding, to use the keyword "friend" for functions, to use 2D arrays, and to continue on with the practice of using multiple files in a c++ program (we use 2 source code files and 1 header file in this program).
+
+Assignment 5 CSCI 241: The purpose of this program is to give us some experience with dynamic memory allocation and everything that has to do with dynamic memory allocation. This program also gives us additional experience with operator overloading like the previous assignment did (assignment 4).
+
+Assignment 6 CSCI 241: The purpose of this program is to get some exercise with implementing/using the Stack ADT with a dynamically-allocated array (using templates). Also, in this program, we are gaining more exercise on managing dynamically-allocated storage in C++.
+
+Assignment 7 CSCI 241: The purpose of this program is to get some exercise with implementing the queue ADT (using a singly-linked list). Also, in this program, we are gaining some more exercise on dealing with the template classes and the template structures.
+
+Assignment 8 CSCI 241:
+
+Assignment 9 CSCI 241: The purpose of this program is to get some exercise with inheritance and polymorphism by creating a series of classes to represent some simple geometric shapes; and by also creating a small program to test these classes that represent the geometric shapes.
