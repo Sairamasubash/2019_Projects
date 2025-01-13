@@ -20,9 +20,9 @@ CSCI 340 Assignment 9: The purpose of this computer assignment is to write a C++
 
 Assignment 1 CSCI 241: The purpose of this program is to get some practice with the manipulation of C strings; and to get some exercise on writing, compiling, and executing a C++ program on our schools departmental UNIX servers.
 
-Assignment 2 CSCI 241:
+Assignment 2 CSCI 241: Seller Program
 
-Assignment 3 CSCI 241:
+Assignment 3 CSCI 241: N/A
 
 Assignment 4 CSCI 241: The purpose of this program is to introduce operator overloding, to use the keyword "friend" for functions, to use 2D arrays, and to continue on with the practice of using multiple files in a c++ program (we use 2 source code files and 1 header file in this program).
 
@@ -32,6 +32,6 @@ Assignment 6 CSCI 241: The purpose of this program is to get some exercise with 
 
 Assignment 7 CSCI 241: The purpose of this program is to get some exercise with implementing the queue ADT (using a singly-linked list). Also, in this program, we are gaining some more exercise on dealing with the template classes and the template structures.
 
-Assignment 8 CSCI 241:
+Assignment 8 CSCI 241: Sorting
 
 Assignment 9 CSCI 241: The purpose of this program is to get some exercise with inheritance and polymorphism by creating a series of classes to represent some simple geometric shapes; and by also creating a small program to test these classes that represent the geometric shapes.
